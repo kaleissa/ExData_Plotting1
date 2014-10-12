@@ -1,4 +1,4 @@
-## plot4() is a function to construct plot1.png.
+## plot4() is a function to construct plot4.png.
 ## Open Data.R - gets the zip file, extracts it to working directory.
 
 
