@@ -27,12 +27,7 @@ plot4 <- function() {
   
   par (mfrow = c(2,2))
   with(hp, {
-    hist(hp$Global_active_power,                       ## hist() to create a histogram 
-         col= "red",                                   ## sets plot bar color to red
-         main = "Global Active Power",                 ## Sets"main" label 
-         xlab = "Global Active Power (kilowatts)"      ## Sets Xaxis label
-    )
-    
+    plot(DateTime, Global_active_power, xlab="", ylab="Global Active Power", type="l")
     plot(DateTime, Voltage, xlab="datetime", ylab="Voltage", type="l")
     
     
